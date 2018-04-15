@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XGroup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+	<string name="confirma_senha">Confirmar Senha</string>
+	<string name="nome_visualizado">Nome visualizado</string>
+	<string name="email">E-mail</string>
+	<string name="celular">Celular</string>
+	<string name="cadastrar">Cadastrar</string>
+	<color name="branco">#FFFFFF</color>
+</resources>

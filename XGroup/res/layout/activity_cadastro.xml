@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lp.xgroup.Cadastro" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_usuario"
+            style="@style/texto"
+            android:text="@string/usuario"/>
+        <EditText 
+            android:id="@+id/cadastro_et_usuario"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Ex: LeonardoPalis"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_senha"
+            style="@style/texto"
+            android:text="@string/senha"/>
+
+        <EditText
+            android:id="@+id/cadastro_et_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 123456"
+            android:inputType="textPassword" />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_confirmasenha"
+            style="@style/texto"
+            android:text="@string/confirma_senha"/>
+
+        <EditText
+            android:id="@+id/cadastro_et_confirmasenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_nome"
+            style="@style/texto"
+            android:text="@string/nome_visualizado"/>
+        
+        <EditText 
+            android:id="@+id/cadastro_et_nome"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Ex: Leonardo Palis"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_email"
+            style="@style/texto"
+            android:text="@string/email"/>
+        
+        <EditText
+            android:id="@+id/cadastro_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: user@mail.com"
+            android:inputType="textEmailAddress" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <TextView 
+            android:id="@+id/cadastro_tv_celular"
+            style="@style/texto"
+            android:text="@string/celular"/>
+        
+        <EditText
+            android:id="@+id/cadastro_et_celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="(XX)XXXX-XXXX"
+            android:inputType="phone" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_weight="1">
+        
+        <Button
+            android:id="@+id/cadastro_bt_cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastrar"
+            style="@style/texto"
+            android:textColor="@color/branco"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
